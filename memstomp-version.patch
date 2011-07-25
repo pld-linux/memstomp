@@ -1,0 +1,11 @@
+--- memstomp.git/configure.ac.orig	2011-07-25 19:12:43.000000000 +0200
++++ memstomp.git/configure.ac	2011-07-25 19:26:11.661160010 +0200
+@@ -20,7 +20,7 @@
+ 
+ AC_PREREQ(2.61)
+ 
+-AC_INIT([memstomp], 0.1.4, [wcohen (at) redhat (dot) com])
++AC_INIT([memstomp], 0.1.5, [wcohen (at) redhat (dot) com])
+ AC_CONFIG_SRCDIR([memstomp.c])
+ AC_CONFIG_HEADERS([config.h])
+ AC_CONFIG_MACRO_DIR(m4)

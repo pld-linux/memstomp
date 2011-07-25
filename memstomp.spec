@@ -8,7 +8,10 @@ Source0:	%{name}.tar.bz2
 # Source0-md5:	d0c7c703f0e4a9a0409509f7fa8b1744
 Patch0:		%{name}-version.patch
 URL:		http://fedorapeople.org/gitweb?p=wcohen/public_git/memstomp/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	binutils-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
